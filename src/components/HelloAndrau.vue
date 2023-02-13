@@ -19,6 +19,7 @@ export default {
   },
   computed: {
     min() {
+      //we can chnage this.vidaLaboral[0].id; with 0 in the min input because it's always starts from 0
       return this.vidaLaboral[0].id;
     },
     max() {
